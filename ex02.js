@@ -1,9 +1,9 @@
 const prompt = require('prompt-sync')();
 
-let vet = [0, 0, 0], num;
+let vet = [0, 0, 0];
 
 for(let i=0; i<3; i++){
-    num = Number(prompt(`Digite o ${i+1} número: `));
+    let num = Number(prompt(`Digite o ${i+1} número: `));
 
     for(let x=0; x<3; x++){
         if(num > vet[x]){
