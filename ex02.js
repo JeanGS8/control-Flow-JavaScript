@@ -15,6 +15,4 @@ for(let i=0; i<3; i++){
     }
 }
 
-console.log(`\nO maior número é: ${vet[0]}`);
-console.log(`O número do meio é: ${vet[1]}`);
-console.log(`O menor número é: ${vet[2]}`);
+console.log(`\nOrdem crescente: ${vet[2]}, ${vet[1]} e ${vet[0]}`);
