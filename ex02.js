@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-let vet = [0, 0, 0];
+const vet = [0];
 
 for(let i=0; i<3; i++){
     let num = Number(prompt(`Digite o ${i+1} número: `));
